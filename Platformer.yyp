@@ -175,14 +175,6 @@
             }
         },
         {
-            "Key": "5c7b9110-881a-45b5-9fa4-5e34bb5f87a7",
-            "Value": {
-                "id": "733745fa-d108-4fd7-912e-ff2ee0412389",
-                "resourcePath": "objects\\o_destroy3\\o_destroy3.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "5e16acf5-80f3-4653-9f1e-e9e9417e0fa0",
             "Value": {
                 "id": "c1fdfd8b-dd4c-4d64-b9f3-fac6765c8ae0",
@@ -236,14 +228,6 @@
                 "id": "b3510e69-2ab5-41e8-b6e0-6dab00eb1ae4",
                 "resourcePath": "views\\6fbeff35-d858-4aab-9d16-cc79e1ef82ce.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "72ac6d04-f903-42c6-8ce2-7fc892fce117",
-            "Value": {
-                "id": "af096a0e-03e5-4c13-9d16-2e903660c145",
-                "resourcePath": "objects\\o_destroy2\\o_destroy2.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -319,6 +303,14 @@
             }
         },
         {
+            "Key": "9dd380b8-539f-44e5-b9e8-87dc2d13b2bc",
+            "Value": {
+                "id": "0273997c-1960-401e-821e-8868a121425e",
+                "resourcePath": "sounds\\a_laser\\a_laser.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "ab4d57e5-7a78-403b-a96b-26aee18909d8",
             "Value": {
                 "id": "d40d4cb9-025c-4cf6-8ada-8474782d3d68",
@@ -383,6 +375,14 @@
             }
         },
         {
+            "Key": "cff4856c-9456-418b-bec2-f2b290f287d6",
+            "Value": {
+                "id": "587333b8-46b8-4f6b-9c71-33957133846f",
+                "resourcePath": "objects\\o_game\\o_game.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d47e3034-a974-4687-b7bf-ebba203e3269",
             "Value": {
                 "id": "17099ee0-f3cf-4a2f-b1a8-8cae71090215",
@@ -444,14 +444,6 @@
                 "id": "88c9be22-5e2c-4cea-ba84-5f9e56b3cbc7",
                 "resourcePath": "sprites\\s_solid\\s_solid.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "f52cc297-9360-4783-8bf5-b2bbe92d2137",
-            "Value": {
-                "id": "f2675b8f-9203-48e6-9141-011a949ad914",
-                "resourcePath": "objects\\o_destroy\\o_destroy.yy",
-                "resourceType": "GMObject"
             }
         }
     ],

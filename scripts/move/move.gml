@@ -10,9 +10,9 @@ if (place_meeting(x+speed_[h], y, o_solid)) {
 		x += sign(speed_[h]);
 	}
 	if bounce_ > 0 {
-		speed_[@ h] = -speed_[@ h]*bounce_;
+		speed_[h] = -speed_[h]*bounce_;
 	} else {
-		speed_[@ h] = 0;
+		speed_[h] = 0;
 	}
 }
 x += speed_[h];

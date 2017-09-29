@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0779c3ef-26e4-49c8-af09-b5ec6a180e7c",
+            "Value": {
+                "id": "8ee08508-5f38-4139-bb7e-ddc116644696",
+                "resourcePath": "sounds\\a_hit\\a_hit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0e9d7c91-eb9d-4bb2-93e4-a8db4c9d4a64",
             "Value": {
                 "id": "08000754-8ca1-4255-8d08-36658e78b932",
@@ -68,6 +76,14 @@
                 "id": "17f820dc-6db1-4ffc-9889-62a0aeff6b3d",
                 "resourcePath": "views\\134ba4f5-dbcc-4b44-85dc-9aade189037f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "15d5e316-e79a-40ce-a136-91d5bdf8563f",
+            "Value": {
+                "id": "2e5b6a28-a9f8-4dcd-b100-3f426a2a9091",
+                "resourcePath": "sounds\\a_death\\a_death.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -148,6 +164,14 @@
                 "id": "e2cdd4b8-3036-4619-924c-901173a28097",
                 "resourcePath": "sprites\\s_enemy\\s_enemy.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3ee6d4af-b790-42f1-810b-0b40496b4c64",
+            "Value": {
+                "id": "11c5fd20-8b3b-470e-aa80-1b507e7c136b",
+                "resourcePath": "sounds\\a_enemy_create\\a_enemy_create.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -311,6 +335,14 @@
             }
         },
         {
+            "Key": "9f484463-33d1-42a3-a54d-da31d64ccdd1",
+            "Value": {
+                "id": "ada3af6c-7595-4295-b0dd-73a0fedfa5e7",
+                "resourcePath": "sounds\\a_enemy_death\\a_enemy_death.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "ab4d57e5-7a78-403b-a96b-26aee18909d8",
             "Value": {
                 "id": "d40d4cb9-025c-4cf6-8ada-8474782d3d68",
@@ -388,6 +420,14 @@
                 "id": "17099ee0-f3cf-4a2f-b1a8-8cae71090215",
                 "resourcePath": "views\\d47e3034-a974-4687-b7bf-ebba203e3269.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d62c6025-43f8-4f87-b115-87c3edadb472",
+            "Value": {
+                "id": "4dc91daa-3c89-42b9-9f6a-f3b09bde9055",
+                "resourcePath": "sounds\\a_enemy_laser\\a_enemy_laser.yy",
+                "resourceType": "GMSound"
             }
         },
         {

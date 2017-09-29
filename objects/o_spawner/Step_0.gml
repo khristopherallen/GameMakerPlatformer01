@@ -1,6 +1,7 @@
 /// @description Spawn Enemies
 
 if !instance_exists(o_enemy) {
+	audio_play_sound(a_enemy_create, 5, false);
 	repeat (wave_) {
 		instance_create_layer(x, y, "Instances", o_enemy);
 	}

@@ -2,6 +2,7 @@
 
 // Check for death
 if health_ <= 0 {
+	audio_play_sound(a_death, 6, false);
 	instance_destroy();
 }
 

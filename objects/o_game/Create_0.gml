@@ -3,5 +3,4 @@
 TOGGLE_PAUSE_ = 0;
 paused_	 = false;
 
-// Play the music!
-audio_play_sound(a_battle, 10, true);
+audio_set_master_gain(0, 0.5);

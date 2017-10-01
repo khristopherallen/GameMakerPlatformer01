@@ -7,7 +7,7 @@
 		var bullet = instance_create_layer(x+x_offset, y+y_offset, "instances", o_enemy_bullet) 
 		bullet.direction = dir;
 		bullet.image_angle = dir;
-		alarm[0] = bullet_cooldown_;
+		alarm[0] = random_range(room_speed, room_speed*2);
 		
 		// Death
 			if health_ <= 0 {

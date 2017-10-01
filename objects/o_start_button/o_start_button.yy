@@ -5,16 +5,6 @@
     "name": "o_start_button",
     "eventList": [
         {
-            "id": "8f699a43-cd38-481e-a52a-3b0f3fa6ab68",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "94f9e1c7-d89c-45f5-b948-c8ff3739acba"
-        },
-        {
             "id": "851909d2-8fa2-4f72-acea-585934be3cf3",
             "modelName": "GMEvent",
             "mvc": "1.0",

@@ -6,22 +6,16 @@ if mouse_x < x {
 	xscale = -1;
 }
 
-/* image_counter_++;
-if (image_counter_ > 4*image_speed_){
-	image_counter_ = 0;
-	image_index_ = 4;
-}else if (image_counter_ > 3*image_speed_){
-	image_index_ = 3;
-}else if (image_counter_ > 2*image_speed_){
-	image_index_ = 2;
-}else if (image_counter_ > image_speed_){
-	image_index_ = 1;
-}else{
-	image_index_ = 0;
-} */
+if (interval_is_off(alarm[1], 16)) {
+	gpu_set_fog(false, c_white, 0, 1);
+} else {
+	gpu_set_fog(true, c_white, 0, 1);
+}
 
 // Draw the player
 draw_sprite_ext(s_player, 0, x, y, x_scale_ * flipped, y_scale_, 0, image_blend, image_alpha);
 
 // Draw the gun
 draw_sprite_ext(s_gun, 0, x - 4 * flipped, y, 1, flipped, dir, image_blend, image_alpha);
+
+gpu_set_fog(false, c_white, 0, 1);

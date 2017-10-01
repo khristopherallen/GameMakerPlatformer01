@@ -8,7 +8,7 @@ max_speed_ = 2;
 max_speed_push_ = 5;
 
 // Bullet cooldown
-bullet_cooldown_ = room_speed;
+bullet_cooldown_ = random_range(room_speed, room_speed*2);
 alarm[0] = bullet_cooldown_;
 
 // States

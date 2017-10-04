@@ -1,4 +1,5 @@
 /// @description Click the button
 
-room_goto(room2);
+o_game.room_ = "r_battle";
+room_goto(r_battle1);
 audio_stop_sound(a_menu);

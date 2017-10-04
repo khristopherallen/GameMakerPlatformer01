@@ -17,6 +17,11 @@ if (!place_meeting(x, y + downDir[1], o_solid)){
 	onGround_ = true;
 }
 
+// player hit head and needs to go down
+if (place_meeting(x, y - downDir[1], o_solid)){
+	//speed_[v] = 1;
+}
+
 if (keyboard_check(vk_space) && onGround_) {
 	speed_[v] = -jump_height_ * downDir[1];
 	x_scale_ = image_xscale*.8 * downDir[1];

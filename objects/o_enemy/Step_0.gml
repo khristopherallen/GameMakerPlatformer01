@@ -1,4 +1,14 @@
 /// @description Move toward the player
+
+switch (type_){
+	case "chaser":
+		image_index = 0;
+		break;
+	case "walker":
+		image_index = 1;
+		break;
+}
+
 event_user(state_);
 
 // Death

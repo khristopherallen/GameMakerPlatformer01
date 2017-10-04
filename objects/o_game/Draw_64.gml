@@ -12,3 +12,8 @@ if paused_ {
 	
 	draw_sprite_ext(s_quit_button, 0, gui_width/2-sprite_width, gui_height/2+30, image_xscale, image_yscale, 0, image_blend, image_alpha);
 }
+
+if !instance_exists(o_player) && room_ == "r_battle" {
+	show_debug_message("DEAD");
+	draw_text(view_get_wport(view_)/2, view_get_hport(view_)/2, "R.I.P. You")
+}

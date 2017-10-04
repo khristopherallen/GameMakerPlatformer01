@@ -10,9 +10,6 @@ gameType_ = "platform or top_down";
 health_ = 10;
 max_health_ = 10;
 invincible_ = false;
-//image_index_ = 0;
-//image_speed_ = 5;
-//image_counter_ = 0;
 
 // Map the keys
 keyboard_set_map(ord("D"), vk_right);
